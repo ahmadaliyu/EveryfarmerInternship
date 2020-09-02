@@ -10,16 +10,9 @@ public class Main {
         stack.push(5);
         stack.push(6);
 
-//         stack.pop();
-
-
-         for (int i = 1; i < stack.size(); i++){
-             System.out.println("The popped value is " + stack.pop());
-         }
-
-
-
-
+         System.out.println("popped " + stack.pop());
+         System.out.println("popped " + stack.pop());
+         
 
 //        stack.clear();
 //        stack.isEmpty();
